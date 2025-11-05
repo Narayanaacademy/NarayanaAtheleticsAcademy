@@ -302,7 +302,7 @@ export default function HomePage({ onKnowMore }) {
 
         /* hero: make height auto and scale text */
         .hero{height:auto;padding:42px var(--page-padding);align-items:flex-start}
-        .heroTitle{font-size:28px!important;padding-left:8px;margin-bottom:8px}
+        .heroTitle{padding-left:8px;margin-bottom:8px}
         .heroSubtitle{font-size:15px!important;padding-left:8px;max-width:100%;margin-bottom:12px}
         .heroButtons{justify-content:flex-start;padding-left:8px}
         .heroButton{width:auto;margin-left:0;padding:10px 12px;font-size:15px}
@@ -366,7 +366,6 @@ export default function HomePage({ onKnowMore }) {
 
       /* Very small phones */
       @media (max-width:420px){
-        .heroTitle{font-size:22px!important}
         .heroSubtitle{font-size:14px!important}
         .top-banner .offer{margin-right:18px;font-size:13px}
         .banner-icons{gap:6px}
@@ -511,7 +510,7 @@ return (
 
       {/* Hero */}
       <section id="home" className="hero" style={styles.hero}>
-        <p className="herotop" style={{paddingTop: isMobile?'0':'8vh', paddingLeft:'30px', fontSize:isMobile?'0':'3vh', marginBottom:'0'}}>Hyderabad&apos;s Leading Academy</p>
+        <p className="herotop" style={{paddingTop: isMobile?'0':'8vh', paddingLeft:'30px', fontSize:isMobile?'2.5vh':'3vh', marginBottom:'0'}}>Hyderabad&apos;s Leading Academy</p>
         <h1 className="heroTitle" style={{...styles.heroTitle,}}> Narayana Athletics <br />Academy</h1>
         <p className="heroSubtitle" style={styles.heroSubtitle}>
           Unlock your full athletic potential with science-based
