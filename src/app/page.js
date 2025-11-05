@@ -509,7 +509,7 @@ return (
 
       {/* Hero */}
       <section id="home" className="hero" style={styles.hero}>
-        <p className="herotop" style={{paddingTop: isMobile?'0':'8vh', paddingLeft:'30px', fontSize:isMobile?'2.5vh':'3vh', marginBottom:'0'}}>Hyderabad&apos;s Leading Academy</p>
+        <p className="herotop" style={{paddingTop: isMobile?'100px':'8vh', paddingLeft:'30px', fontSize:isMobile?'2.5vh':'3vh', marginBottom:'0'}}>Hyderabad&apos;s Leading Academy</p>
         <h1 className="heroTitle" style={{...styles.heroTitle,}}> Narayana Athletics <br />Academy</h1>
         <p className="heroSubtitle" style={styles.heroSubtitle}>
           Unlock your full athletic potential with science-based
