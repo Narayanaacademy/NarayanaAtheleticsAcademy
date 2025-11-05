@@ -135,14 +135,14 @@ export default function HomePage({ onKnowMore }) {
       margin:'0',
       paddingLeft: '30px',
       textAlign: "left",
-      fontSize: "70px",
+      fontSize: "clamp(2.5rem, 5vw, 4rem)",
       fontWeight: "700",
       marginBottom: "20px",
     },
     heroSubtitle: {
       paddingLeft: '30px',
       textAlign: "left",
-      fontSize: "30px",
+      fontSize: "clamp(1.1rem, 3vw, 2rem)",
       maxWidth: "720px",
       marginBottom: "30px",
     },
@@ -303,7 +303,7 @@ export default function HomePage({ onKnowMore }) {
         /* hero: make height auto and scale text */
         .hero{height:auto;padding:42px var(--page-padding);align-items:flex-start}
         .heroTitle{padding-left:8px;margin-bottom:8px}
-        .heroSubtitle{font-size:15px!important;padding-left:8px;max-width:100%;margin-bottom:12px}
+        .heroSubtitle{padding-left:8px;max-width:100%;margin-bottom:12px}
         .heroButtons{justify-content:flex-start;padding-left:8px}
         .heroButton{width:auto;margin-left:0;padding:10px 12px;font-size:15px}
 
@@ -366,7 +366,6 @@ export default function HomePage({ onKnowMore }) {
 
       /* Very small phones */
       @media (max-width:420px){
-        .heroSubtitle{font-size:14px!important}
         .top-banner .offer{margin-right:18px;font-size:13px}
         .banner-icons{gap:6px}
         .gallery-image{height:120px}
