@@ -1,6 +1,8 @@
-module.exports = {
-  siteUrl: 'https://your-domain.com', // change this to your real domain
+// next-sitemap.config.js
+const siteUrl = "https://yourdomain.com";
+
+export default {
+  siteUrl,
   generateRobotsTxt: true,
-  changefreq: 'weekly',
-  priority: 0.7,
+  sitemapSize: 5000,
 };
