@@ -115,7 +115,7 @@ export default function GalleryPage() {
 
         <div className="gallery-grid">
           {imgs.map((s, i) => (
-            <img
+            <Image
               key={i}
               src={s}
               alt={`Gallery ${i + 1}`}
@@ -139,7 +139,7 @@ export default function GalleryPage() {
           >
             ×
           </div>
-          <img
+          <Image
             src={lightbox.src}
             alt={lightbox.alt}
             className="lightbox-img"
