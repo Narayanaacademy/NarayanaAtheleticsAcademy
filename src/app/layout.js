@@ -13,19 +13,22 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: 'RunNarayana Academy | Running & Strength Training',
-    template: '%s | RunNarayana Academy'
+    default: 'Narayana Athletics Academy | Running & Strength Training',
+    template: '%s | Narayana Athletics Academy'
   },
   description:
-    'RunNarayana Academy — running coaching, marathon prep, strength training and selection-specific programs across Hyderabad and online from entry level to elite players. Join India’s #1 performance academy.',
+    'Narayana Athletics Academy — running coaching, marathon prep, strength training and selection-specific programs across Hyderabad and online from entry level to elite players. Join India’s #1 performance academy.',
   keywords: [
     'running academy',
     'running coaching',
     'online running classes',
-    'runnning coaching for kids',
+    'running coaching for kids',
     'marathon training India',
     'Tata Mumbai Marathon 2026',
     'strength training for runners',
+    'Narayana Athletics Academy',
+    'narayana athletics academy',
+    'Narayana Athletics',
     'RunNarayana Academy',
     'fitness training',
     'endurance running',
@@ -47,17 +50,17 @@ export const metadata = {
     "long distance running training",
   ],
   openGraph: {
-    title: 'RunNarayana Academy | Running & Strength Training',
+    title: 'Narayana Athletics Academy | Running & Strength Training',
     description:
-      'Achieve your peak performance with certified running coach — online or offline. Join India’s #1 performance academy. Marathon prep, selection training for Armed Forces & police',
-    url: 'https://www.narayanaatheleticsacademy.in', // <-- replace with your domain
-    siteName: 'RunNarayana Academy',
+      'Achieve your peak performance with a certified running & fitness coach — online or offline. Join India’s #1 performance academy. Marathon prep, selection training for Armed Forces & police',
+    url: 'https://www.narayanaatheletics.in', // <-- replace with your domain
+    siteName: 'Narayana Athletics Academy',
     images: [
       {
         url: '/assets/image1.png',
         width: 1200,
         height: 630,
-        alt: 'RunNarayana Academy - Running & Strength Training'
+        alt: 'Narayana Athletics Academy - Running & Strength Training'
       }
     ],
     locale: 'en_IN',
@@ -65,8 +68,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@runnarayana',
-    creator: '@runnarayana'
+    site: '@narayanaathletics',
+    creator: '@narayanaathletics'
   },
   alternates: {
     canonical: 'https://www.narayanaatheleticsacademy.vercel.app'
@@ -79,7 +82,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="description" content="Train with the best at Narayana Athletics Academy. Professional coaching for all levels." />
         <meta property="og:title" content="Narayana Athletics Academy" />
-        <meta property="og:description" content="Join Hyderabad’s premier athletics academy today!" />
+        <meta property="og:description" content=" Join Hyderabad’s No.1 premier athletics academy today!" />
         <meta property="og:image" content="/banner.jpg" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
 <script dangerouslySetInnerHTML={{
