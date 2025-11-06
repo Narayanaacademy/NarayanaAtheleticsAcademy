@@ -1,4 +1,4 @@
-const siteUrl = "https://yourdomain.com"; // replace with your actual URL
+const siteUrl = "https://narayanaathletics.in"; // replace with your actual URL
 
 export default {
   siteUrl,
