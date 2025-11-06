@@ -101,7 +101,7 @@ export default function Navbar({ bgcolor = "transparent", topOffset = "0px" }) {
               color: "#fff",
             }}
           >
-            NARAYANA ATHELETICS ACADEMY
+            NARAYANA ATHLETICS ACADEMY
           </div>
         </div>
 
