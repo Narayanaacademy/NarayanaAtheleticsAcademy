@@ -53,7 +53,7 @@ export const metadata = {
     title: 'Narayana Athletics Academy | Running & Strength Training',
     description:
       'Achieve your peak performance with a certified running & fitness coach — online or offline. Join India’s #1 performance academy. Marathon prep, selection training for Armed Forces & police',
-    url: 'https://www.narayanaatheletics.in', // <-- replace with your domain
+    url: 'https://www.narayanaathletics.in', // <-- replace with your domain
     siteName: 'Narayana Athletics Academy',
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
     creator: '@narayanaathletics'
   },
   alternates: {
-    canonical: 'https://www.narayanaatheleticsacademy.vercel.app'
+    canonical: 'https://www.narayanaathleticsacademy.vercel.app'
   }
 };
 
