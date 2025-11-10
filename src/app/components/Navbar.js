@@ -108,7 +108,7 @@ export default function Navbar({ bgcolor = "transparent", topOffset = "0px" }) {
         {/* Desktop Links */}
         <div className="nav-links" style={{ display: "flex", gap: 30, fontSize: 20 }}>
           <a
-            href="/"
+            href="https://www.narayanaathletics.in/"
             onClick={(e) => handleNavToSection(e, "home")}
             style={{ color: "#fff", textDecoration: "none", padding: "10px 10px" }}
           >
