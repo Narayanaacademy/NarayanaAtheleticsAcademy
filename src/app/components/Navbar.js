@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import logo1 from "../../../public/assets/logo1.png";
@@ -107,36 +108,42 @@ export default function Navbar({ bgcolor = "transparent", topOffset = "0px" }) {
 
         {/* Desktop Links */}
         <div className="nav-links" style={{ display: "flex", gap: 30, fontSize: 20 }}>
-          <a
-            href="https://www.narayanaathletics.in/"
+          <Link
+            href="/"
             onClick={(e) => handleNavToSection(e, "home")}
             style={{ color: "#fff", textDecoration: "none", padding: "10px 10px" }}
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="#about"
             onClick={(e) => handleNavToSection(e, "about")}
             style={{ color: "#fff", textDecoration: "none", padding: "10px 10px" }}
           >
             About
-          </a>
-          <a
+          </Link>
+          <Link
             href="#programs"
             onClick={(e) => handleNavToSection(e, "programs")}
             style={{ color: "#fff", textDecoration: "none", padding: "10px 10px" }}
           >
             Programs
-          </a>
-          <a href="/gallery" style={{ color: "#fff", textDecoration: "none", padding: "10px" }}>
+          </Link>
+          <Link
+            href="/gallery"
+            style={{ color: "#fff", textDecoration: "none", padding: "10px" }}
+          >
             Gallery
-          </a>
-          <a href="/resume" style={{ color: "#fff", textDecoration: "none", padding: "10px" }}>
+          </Link>
+          <Link
+            href="/resume"
+            style={{ color: "#fff", textDecoration: "none", padding: "10px" }}
+          >
             Resume
-          </a>
-          <a
-            className="join-btn"
+          </Link>
+          <Link
             href="/contact"
+            className="join-btn"
             style={{
               backgroundColor: btn,
               color: txt,
@@ -146,7 +153,7 @@ export default function Navbar({ bgcolor = "transparent", topOffset = "0px" }) {
             }}
           >
             Join Now
-          </a>
+          </Link>
         </div>
 
         {/* Hamburger (Mobile only) */}
@@ -185,38 +192,41 @@ export default function Navbar({ bgcolor = "transparent", topOffset = "0px" }) {
             transition: "all 0.3s ease",
           }}
         >
-          <a
-            href="#home"
+          <Link
+            href="/"
             onClick={(e) => handleNavToSection(e, "home")}
             style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="#about"
             onClick={(e) => handleNavToSection(e, "about")}
             style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}
           >
             About
-          </a>
-          <a
+          </Link>
+          <Link
             href="#programs"
             onClick={(e) => handleNavToSection(e, "programs")}
             style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}
           >
             Programs
-          </a>
-          <a
+          </Link>
+          <Link
             href="#phases"
             onClick={(e) => handleNavToSection(e, "phases")}
             style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}
           >
             Phases
-          </a>
-          <a href="/gallery" style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}>
+          </Link>
+          <Link
+            href="/gallery"
+            style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}
+          >
             Gallery
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
             style={{
               backgroundColor: "#fff",
@@ -228,7 +238,7 @@ export default function Navbar({ bgcolor = "transparent", topOffset = "0px" }) {
             }}
           >
             Join Now
-          </a>
+          </Link>
         </div>
       )}
     </>
