@@ -57,7 +57,7 @@ export const metadata = {
     siteName: 'Narayana Athletics Academy',
     images: [
       {
-        url: '/assets/image1.png',
+        url: 'https://www.narayanaathletics.in/assets/logo1.png',
         width: 1200,
         height: 630,
         alt: 'Narayana Athletics Academy - Running & Strength Training'
