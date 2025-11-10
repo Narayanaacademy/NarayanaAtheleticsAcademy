@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = "https://www.narayanaathletics.in";
+  const baseUrl = "https://www.narayanaathletics.in"; // ✅ your actual domain
 
   return [
     {
